@@ -6,6 +6,7 @@
 
 Este projeto tem como objetivo analisar o preço de fechamento do Bitcoin utilizando **Mínimos Quadrados Descontados (MQD)** e diversas **Técnicas de Suavização (Médias Móveis Simples, Suavização Exponencial e Suavização Exponencial Dupla)**. Através dessa análise, buscamos entender as tendências e comportamentos do mercado de Bitcoin, oferecendo insights valiosos para investidores e entusiastas.
 
+
 ## 🛠️ Tecnologias Utilizadas
 
 - **Python 3.8+**
@@ -17,6 +18,7 @@ Este projeto tem como objetivo analisar o preço de fechamento do Bitcoin utiliz
   - `statsmodels`
   - `scikit-learn`
 
+
 ## 🧠 Abordagens Utilizadas
 1. Mínimos Quadrados Descontados (MQD)
 O MQD ajusta os parâmetros de regressão de forma a dar menos peso aos erros conforme o tempo avança, capturando tendências recentes de maneira mais eficaz.
@@ -25,6 +27,7 @@ O MQD ajusta os parâmetros de regressão de forma a dar menos peso aos erros co
 - Médias Móveis Simples (SMA): Calcula a média de um número fixo de períodos para identificar tendências de curto e longo prazo.
 - Suavização Exponencial: Dá mais peso aos dados mais recentes, ideal para séries com tendências ou sazonalidades leves.
 - Suavização Exponencial Dupla: Captura tanto a tendência quanto a sazonalidade dos dados, adequada para séries temporais com tendências significativas.
+
 
 ## 📊 Resultados
 Após executar o script, você obterá:
